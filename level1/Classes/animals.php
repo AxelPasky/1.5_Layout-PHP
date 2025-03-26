@@ -5,7 +5,7 @@ abstract class Animals{
 
     protected string $name;
 
-    function __costruct(string $name){
+    function __construct(string $name){
       $this->name=$name;
     }
    

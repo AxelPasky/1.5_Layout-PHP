@@ -9,9 +9,9 @@ include "./Classes/dog.php";
 $dog= new Dog("Balto");
 $cat= new Cat("Micio");
 
-echo "My dog ". $dog->getName() . " says: ";
+echo " My dog ". $dog->getName() . " says: ";
 $dog->makeSound() . PHP_EOL;
 
-echo "My cat ". $cat->getName() . " says: ";
+echo " My cat ". $cat->getName() . " says: ";
  $cat->makeSound() . PHP_EOL;
 

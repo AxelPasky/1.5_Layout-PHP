@@ -2,19 +2,15 @@
 declare(strict_types=1);
 
 class Dog extends Animals {
-
-    protected string $name;
-
-    function __construct (string $name){
-
-        $this->name=$name;
+    function __construct(string $name) {
+        parent::__construct($name); 
     }
 
-    function getName(){
+    function getName(): string {
         return $this->name;
-      }
-    
-    function makeSound(): void{
-        echo "Bau Bau!" . PHP_EOL;
+    }
+
+    function makeSound(): void {
+        echo "Bau Bau!";
     }
 }
