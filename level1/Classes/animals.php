@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-abstract class Animals{
+abstract class Animal{
 
     protected string $name;
 
